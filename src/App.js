@@ -54,7 +54,7 @@ import "assets/css/nucleo-icons.css";
 import "assets/css/nucleo-svg.css";
 
 export default function App() {
-  //Created new branch named develop
+  //modifiede this comment
   const isUserLoggedIn = store.getState().user.isUserLoggedIn;
   const [controller, dispatch] = useArgonController();
   const { miniSidenav, direction, layout, openConfigurator, sidenavColor, darkSidenav, darkMode } =
