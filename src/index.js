@@ -29,7 +29,7 @@ import "react-perfect-scrollbar/dist/css/styles.css";
 
 const container = document.getElementById("root");
 const root = createRoot(container);
-
+//this is the entry point of app
 root.render(
   <BrowserRouter>
     <ArgonControllerProvider>
