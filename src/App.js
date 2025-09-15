@@ -54,13 +54,17 @@ import "assets/css/nucleo-icons.css";
 import "assets/css/nucleo-svg.css";
 
 export default function App() {
-  //Created new branch named develop
+  //another comment
   const isUserLoggedIn = store.getState().user.isUserLoggedIn;
   const [controller, dispatch] = useArgonController();
   const { miniSidenav, direction, layout, openConfigurator, sidenavColor, darkSidenav, darkMode } =
     controller;
   const [onMouseEnter, setOnMouseEnter] = useState(false);
   const { pathname } = useLocation();
+
+  //add something here to add for the commit
+  console.log("App.js");
+  console.log("isUserLoggedIn", isUserLoggedIn);
 
   // Open sidenav when mouse enter on mini sidenav
   const handleOnMouseEnter = () => {

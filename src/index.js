@@ -29,7 +29,6 @@ import "react-perfect-scrollbar/dist/css/styles.css";
 
 const container = document.getElementById("root");
 const root = createRoot(container);
-
 root.render(
   <BrowserRouter>
     <ArgonControllerProvider>
