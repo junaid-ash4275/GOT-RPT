@@ -62,6 +62,10 @@ export default function App() {
   const [onMouseEnter, setOnMouseEnter] = useState(false);
   const { pathname } = useLocation();
 
+  //add something here to add for the commit
+  console.log("App.js");
+  console.log("isUserLoggedIn", isUserLoggedIn);
+
   // Open sidenav when mouse enter on mini sidenav
   const handleOnMouseEnter = () => {
     if (miniSidenav && !onMouseEnter) {
